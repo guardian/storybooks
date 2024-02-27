@@ -1,0 +1,24 @@
+{
+	"name": "storybooks",
+	"version": "1.0.0",
+	"description": "A storybook that composes other Guardian storybooks.",
+	"scripts": {
+		"build": "storybook build",
+		"dev": "storybook dev"
+	},
+	"private": true,
+	"dependencies": {
+		"@storybook/addon-docs": "^7.6.17",
+		"@storybook/blocks": "^7.6.17",
+		"@storybook/builder-vite": "^7.6.17",
+		"@storybook/react": "^7.6.17",
+		"@storybook/react-vite": "^7.6.17",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"storybook": "^7.6.17"
+	},
+	"devDependencies": {
+		"@guardian/prettier": "^8.0.0"
+	},
+	"prettier": "@guardian/prettier"
+}
