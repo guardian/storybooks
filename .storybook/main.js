@@ -61,5 +61,10 @@ module.exports = {
 			url: 'https://main--62e115310aef0868687b2322.chromatic.com',
 			expanded: false,
 		},
+		'thrashers': {
+			title: 'thrashers',
+			url: 'https://main--63fe86364bb6b7b73e47b125.chromatic.com',
+			expanded: false,
+		}
 	}),
 };
