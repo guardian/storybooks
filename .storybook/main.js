@@ -11,19 +11,14 @@ module.exports = {
 		autodocs: true,
 	},
 	refs: () => ({
-		'source-foundations': {
-			title: '@guardian/source-foundations',
-			url: 'https://main--635a6aa8070dfdbfdac36f65.chromatic.com',
+		source: {
+			title: '@guardian/source',
+			url: 'https://main--5e933197d94d9c002275a15e.chromatic.com',
 			expanded: false,
 		},
-		'source-react-components': {
-			title: '@guardian/source-react-components',
-			url: 'https://main--635a6fffacd30d393597c1ff.chromatic.com',
-			expanded: false,
-		},
-		'source-react-components-development-kitchen': {
-			title: '@guardian/source-react-components-development-kitchen',
-			url: 'https://main--635a7057acd30d393597c208.chromatic.com',
+		'source-development-kitchen': {
+			title: '@guardian/source-development-kitchen',
+			url: 'https://main--664e157241c2ba0925660bce.chromatic.com/',
 			expanded: false,
 		},
 		'braze-components': {
@@ -61,10 +56,10 @@ module.exports = {
 			url: 'https://main--62e115310aef0868687b2322.chromatic.com',
 			expanded: false,
 		},
-		'thrashers': {
+		thrashers: {
 			title: 'thrashers',
 			url: 'https://main--63fe86364bb6b7b73e47b125.chromatic.com',
 			expanded: false,
-		}
+		},
 	}),
 };
