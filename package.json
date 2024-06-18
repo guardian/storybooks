@@ -21,5 +21,6 @@
 	"devDependencies": {
 		"@guardian/prettier": "^8.0.0"
 	},
-	"prettier": "@guardian/prettier"
+	"prettier": "@guardian/prettier",
+	"packageManager": "pnpm@9.3.0"
 }
