@@ -46,6 +46,11 @@ module.exports = {
 			url: 'https://main--61eee3dabb99df003a4090fd.chromatic.com',
 			expanded: false,
 		},
+		'react-crossword': {
+			title: 'react-crossword',
+			url: 'https://main--672a4ddb2d73c2a1953e9b36.chromatic.com',
+			expanded: false,
+		},
 		'support-dotcom-components': {
 			title: 'support-dotcom-components',
 			url: 'https://main--5fb7a8c515dcfc0021275379.chromatic.com',
