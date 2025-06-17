@@ -1,15 +1,16 @@
 module.exports = {
 	stories: ['../src/README.mdx'],
+
 	core: {
 		builder: '@storybook/builder-vite',
 	},
+
 	framework: {
 		name: '@storybook/react-vite',
 	},
+
 	addons: ['@storybook/addon-docs'],
-	docs: {
-		autodocs: true,
-	},
+
 	refs: () => ({
 		source: {
 			title: '@guardian/source',
