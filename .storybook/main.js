@@ -9,7 +9,7 @@ module.exports = {
 		name: '@storybook/react-vite',
 	},
 
-	addons: ['@storybook/addon-docs'],
+	addons: ['@storybook/addon-docs', '@storybook/addon-a11y'],
 
 	refs: () => ({
 		source: {
