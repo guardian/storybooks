@@ -30,6 +30,9 @@ importers:
       '@guardian/prettier':
         specifier: ^8.0.1
         version: 8.0.1(prettier@3.3.2)(tslib@2.8.1)
+      '@storybook/addon-a11y':
+        specifier: ^9.1.20
+        version: 9.1.20(storybook@9.1.17(@testing-library/dom@10.4.0)(prettier@3.3.2)(vite@4.5.3(@types/node@20.11.20)))
 
 packages:
 
@@ -445,6 +448,11 @@ packages:
       rollup:
         optional: true
 
+  '@storybook/addon-a11y@9.1.20':
+    resolution: {integrity: sha512-VFZ34y4ApmFwIzPRs2OJrG6jtYhM5y91eCZLTlR/HMGQciKF4TdOJHjj+5vf91SOER5UDcLizXetpiUowiZSgw==}
+    peerDependencies:
+      storybook: ^9.1.20
+
   '@storybook/addon-docs@9.1.17':
     resolution: {integrity: sha512-yc4hlgkrwNi045qk210dRuIMijkgbLmo3ft6F4lOdpPRn4IUnPDj7FfZR8syGzUzKidxRfNtLx5m0yHIz83xtA==}
     peerDependencies:
@@ -619,6 +627,10 @@ packages:
 
   ast-types@0.16.1:
     resolution: {integrity: sha512-6t10qk83GOG8p0vKmaCr8eiilZwO171AvbROMtvvNiwrTly62t+7XkA8RdIIVbpMhCASAsxgAzdRSwh6nw/5Dg==}
+    engines: {node: '>=4'}
+
+  axe-core@4.11.1:
+    resolution: {integrity: sha512-BASOg+YwO2C+346x3LZOeoovTIoTrRqEsqMa6fmfAV0P+U9mFr9NsyOEpiYvFjbc64NMrSswhV50WdXzdb/Z5A==}
     engines: {node: '>=4'}
 
   balanced-match@1.0.2:
@@ -1461,6 +1473,12 @@ snapshots:
     optionalDependencies:
       rollup: 3.29.5
 
+  '@storybook/addon-a11y@9.1.20(storybook@9.1.17(@testing-library/dom@10.4.0)(prettier@3.3.2)(vite@4.5.3(@types/node@20.11.20)))':
+    dependencies:
+      '@storybook/global': 5.0.0
+      axe-core: 4.11.1
+      storybook: 9.1.17(@testing-library/dom@10.4.0)(prettier@3.3.2)(vite@4.5.3(@types/node@20.11.20))
+
   '@storybook/addon-docs@9.1.17(@types/react@18.2.60)(storybook@9.1.17(@testing-library/dom@10.4.0)(prettier@3.3.2)(vite@4.5.3(@types/node@20.11.20)))':
     dependencies:
       '@mdx-js/react': 3.1.0(@types/react@18.2.60)(react@19.1.0)
@@ -1662,6 +1680,8 @@ snapshots:
   ast-types@0.16.1:
     dependencies:
       tslib: 2.8.1
+
+  axe-core@4.11.1: {}
 
   balanced-match@1.0.2: {}
 

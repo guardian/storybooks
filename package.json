@@ -8,6 +8,7 @@
 	},
 	"private": true,
 	"dependencies": {
+		"@storybook/addon-a11y": "^9.1.20",
 		"@storybook/addon-docs": "^9.1.17",
 		"@storybook/builder-vite": "^9.1.17",
 		"@storybook/react-vite": "^9.1.17",
