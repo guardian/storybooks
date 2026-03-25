@@ -11,6 +11,19 @@ module.exports = {
 
 	addons: ['@storybook/addon-docs', '@storybook/addon-a11y'],
 
+	viteFinal(config) {
+		config.plugins = config.plugins || [];
+		config.plugins.push({
+			name: 'fix-file-url-imports',
+			resolveId(id) {
+				if (id.startsWith('file://')) {
+					return id.replace(/^file:\/\//, '');
+				}
+			},
+		});
+		return config;
+	},
+
 	refs: () => ({
 		source: {
 			title: '@guardian/source',
@@ -65,6 +78,11 @@ module.exports = {
 		thrashers: {
 			title: 'thrashers',
 			url: 'https://main--63fe86364bb6b7b73e47b125.chromatic.com',
+			expanded: false,
+		},
+		stand: {
+			title: 'stand',
+			url: 'https://main--68c12e3ed577cb56abfd31bf.chromatic.com',
 			expanded: false,
 		},
 	}),
