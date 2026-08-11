@@ -85,5 +85,10 @@ module.exports = {
 			url: 'https://main--68c12e3ed577cb56abfd31bf.chromatic.com',
 			expanded: false,
 		},
+		'commercial-templates': {
+			title: 'commercial-templates',
+			url: 'https://main--6a68b779992dc788e0cb14f4.chromatic.com',
+			expanded: false,
+		},
 	}),
 };
