@@ -50,6 +50,11 @@ module.exports = {
 			url: 'https://main--65569b6bc120a11299938636.chromatic.com',
 			expanded: false,
 		},
+		'flexible-restorer': {
+			title: 'flexible-restorer',
+			url: 'https://main--6ad89b3e7812edd835716b75.chromatic.com',
+			expanded: false,
+		},
 		gateway: {
 			title: 'gateway',
 			url: 'https://main--60929d168594f80039336501.chromatic.com',
